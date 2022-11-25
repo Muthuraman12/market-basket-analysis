@@ -3,9 +3,9 @@ Using Apriori Algorithm to do Market Basket Analysis of Customers purchasing beh
 Market-Basket-Analysis
 Using Apriori Algorithm to do Market Basket Analysis of Customers purchasing behaviours. It can predict what the customer is going to buy next by looking at the products he is buying.
 
-Market Basket Analysis
+#Market Basket Analysis
 
-What is it?
+#What is it?
 
 Market Basket Analysis is a modelling technique based upon the theory that if you buy a certain group of items, you are more (or less) likely to buy another group of items. For example, if you are in an English pub and you buy a pint of beer and don't buy a bar meal, you are more likely to buy crisps (US. chips) at the same time than somebody who didn't buy beer.
 
@@ -17,7 +17,7 @@ IF {beer, no bar meal} THEN {crisps}. The probability that a customer will buy b
 
 A major difficulty is that a large number of the rules found may be trivial for anyone familiar with the business. Although the volume of data has been reduced, we are still asking the user to find a needle in a haystack. Requiring rules to have a high minimum support level and a high confidence level risks missing any exploitable result we might have found. One partial solution to this problem is differential market basket analysis, as described below.
 
-How is it used?
+#How is it used?
 
 In retailing, most purchases are bought on impulse. Market basket analysis gives clues as to what a customer might have bought if the idea had occurred to them . (For some real insights into consumer behavior, see Why We Buy: The Science of Shopping by Paco Underhill.)
 
@@ -29,7 +29,7 @@ In differential analysis, we compare results between different stores, between c
 
 If we observe that a rule holds in one store, but not in any other (or does not hold in one store, but holds in all others), then we know that there is something interesting about that store. Perhaps its clientele are different, or perhaps it has organized its displays in a novel and more lucrative way. Investigating such differences may yield useful insights which will improve company sales.
 
-Other Application Areas
+#Other Application Areas
 
 Although Market Basket Analysis conjures up pictures of shopping carts and supermarket shoppers, it is important to realize that there are many other areas in which it can be applied. These include:
 
